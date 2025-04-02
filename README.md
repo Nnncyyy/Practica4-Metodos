@@ -43,19 +43,89 @@ Si bien la versión en C es funcional, la versión en Java es más adaptable y f
 ### PRÁCTICA 2: SISTEMA DE ESTUDIANTES
 
 ### Introducción al programa
+El siguiente documento presenta dos versiones de un sistema de registro de estudiantes en Java. Ambas implementaciones permiten realizar operaciones básicas, como agregar, mostrar, buscar y eliminar estudiantes de un arreglo.
 
-### Versión en C
+### Primer versión
+✅ Características Principales
+- Todo el código está dentro del método main, lo que hace que sea menos modular.
+- La entrada de datos y las operaciones están mezcladas, reduciendo la claridad.
+- Uso de un arreglo fijo para almacenar estudiantes.
+- Presenta un error en el bucle de búsqueda de estudiantes
 
-### Versión en Java
+💡Mejoras:
+- Código más compacto y fácil de seguir para principiantes.
+- No requiere múltiples métodos, lo que simplifica su estructura inicial.
+- Menos dependencias y menor sobrecarga de funciones.
+
+⚠️Limitaciones:
+- Falta de modularidad, lo que dificulta la escalabilidad del código.
+- Menor claridad debido a la mezcla de lógica en un solo método.
+- Errores en el bucle de búsqueda de estudiantes, lo que puede generar fallos en la ejecución.
+
+### Segunda versión
+✅ Características Principales
+- Organiza la lógica en métodos separados (registrarEstudiante, mostrarEstudiantes, buscarEstudiante, eliminarEstudiante).
+- Utiliza un constructor en la clase Estudiantes para facilitar la creación de objetos.
+- Mejora la modularidad y reutilización del código.
+- Corrige errores en la búsqueda de estudiantes y optimiza la eliminación.
+- Mejora la legibilidad al separar el menú en un método independiente.
+
+💡Mejoras:
+- Mayor claridad y facilidad de mantenimiento.
+- Separación de responsabilidades en funciones específicas.
+- Corrección de errores y mejor manejo de estructuras de control.
+
+⚠️Limitaciones:
+- Ambas versiones utilizan un arreglo de tamaño fijo, lo que podría mejorarse con estructuras dinámicas como ArrayList.
+- Falta validación de datos para evitar entradas incorrectas o duplicadas.
+
+Conclusión
+La segunda versión ofrece una mejora significativa en la organización del código, haciéndolo más modular y fácil de mantener. Sin embargo, aún puede optimizarse utilizando estructuras de datos más flexibles y validaciones adicionales para un sistema más robusto.
+
 
 
 ### PRÁCTICA 3: JUEGO DE ADIVINANZA
 
 ### Introducción al programa
+El siguiente documento describe el funcionamiento y la estructura del código del "Juego de Adivinanza" en Java. Este programa genera un número aleatorio entre 1 y 100 y le permite al usuario intentar adivinarlo en un número limitado de intentos, proporcionando pistas según la dificultad elegida.
 
-### Versión en C
 
-### Versión en Java
+✅ Características Principales
+- Uso de la clase *Random* para generar un número aleatorio entre 1 y 100.
+- Implementación de un método separado adivinar_numero para manejar la lógica del juego.
+- Control de errores en la entrada del usuario, asegurando que ingrese valores válidos.
+- Dos niveles de dificultad:
+    - Fácil: Rango de pistas más amplio.
+    - Difícil: Rango de pistas más reducido.
+
+- Pistas ajustadas dinámicamente después de cada intento fallido.
+- Uso de *try (Scanner scanner = new Scanner(System.in))* para manejar la entrada del usuario de manera eficiente.
+
+💡Mejoras:
+Método adivinar_numero
+  El método adivinar_numero es el encargado de gestionar la interacción del usuario con el juego:
+    - Ajusta los rangos iniciales de pistas según la dificultad elegida.
+    - Se asegura de que los valores del rango se mantengan dentro del límite de 1 a 100.
+    - Solicita al usuario un número y valida su entrada.
+    - Verifica si el usuario ha adivinado el número, terminando el juego en caso de acierto.
+    - Si el usuario falla, reduce los intentos disponibles y proporciona una pista ajustando el rango.
+    - Si los intentos se agotan, muestra el número correcto.
+
+- Implementar una estructura dinámica como ArrayList para almacenar los intentos previos.
+- Agregar una opción de "Volver a jugar" sin necesidad de reiniciar el programa.
+- Mejorar la generación de pistas para que sean más adaptativas según el progreso del jugador.
+- Utilizar un sistema de niveles o puntuaciones.
+
+⚠️Limitaciones:
+- El rango de pistas puede reducirse demasiado rápido en algunos casos.
+- No hay control para evitar que el usuario ingrese el mismo número repetidamente.
+- El juego termina al agotar los intentos sin posibilidad de reiniciar en la misma ejecución.
+
+Conclusión
+El juego de adivinanza en Java ofrece una experiencia simple pero entretenida, con una estructura modular gracias al uso del método *adivinar_numero*. Aunque cuenta con un sistema básico de pistas y control de errores, puede optimizarse con mejoras en la generación de pistas, control de repeticiones y opciones de reinicio.
+
+
+
 
 
 
