@@ -40,3 +40,23 @@ La versión en Java es una mejora significativa en términos de flexibilidad, es
 Ambas versiones cumplen la misma función de gestionar una agenda de contactos, pero la versión en Java ofrece una implementación más moderna, eficiente y flexible.
 Si bien la versión en C es funcional, la versión en Java es más adaptable y fácil de expandir en caso de querer agregar nuevas características, como un menú gráfico o sincronización en la nube.
 
+### PRÁCTICA 2: SISTEMA DE ESTUDIANTES
+
+### Introducción al programa
+
+### Versión en C
+
+### Versión en Java
+
+
+### PRÁCTICA 3: JUEGO DE ADIVINANZA
+
+### Introducción al programa
+
+### Versión en C
+
+### Versión en Java
+
+
+
+
