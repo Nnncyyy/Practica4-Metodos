@@ -79,7 +79,7 @@ El siguiente documento presenta dos versiones de un sistema de registro de estud
 - Ambas versiones utilizan un arreglo de tamaño fijo, lo que podría mejorarse con estructuras dinámicas como ArrayList.
 - Falta validación de datos para evitar entradas incorrectas o duplicadas.
 
-Conclusión
+### Conclusión
 La segunda versión ofrece una mejora significativa en la organización del código, haciéndolo más modular y fácil de mantener. Sin embargo, aún puede optimizarse utilizando estructuras de datos más flexibles y validaciones adicionales para un sistema más robusto.
 
 
@@ -121,7 +121,7 @@ Método adivinar_numero
 - No hay control para evitar que el usuario ingrese el mismo número repetidamente.
 - El juego termina al agotar los intentos sin posibilidad de reiniciar en la misma ejecución.
 
-Conclusión
+### Conclusión
 El juego de adivinanza en Java ofrece una experiencia simple pero entretenida, con una estructura modular gracias al uso del método *adivinar_numero*. Aunque cuenta con un sistema básico de pistas y control de errores, puede optimizarse con mejoras en la generación de pistas, control de repeticiones y opciones de reinicio.
 
 
