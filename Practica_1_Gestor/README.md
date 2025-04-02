@@ -1,2 +1,0 @@
-# SistemaRegistrosEstudiantes
-practica3
