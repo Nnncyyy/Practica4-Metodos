@@ -1,0 +1,27 @@
+---------------------------------- CONTACTOS ----------------------------------
+
+------------------------ Contacto No. 1 ------------------------
+Nombre: Maria
+Telefono:3
+Email: maria
+
+------------------------ Contacto No. 2 ------------------------
+Nombre: Diego
+Telefono:6
+Email: diego
+
+------------------------ Contacto No. 3 ------------------------
+Nombre: Gabriel
+Telefono:56565
+Email: gabriel
+
+------------------------ Contacto No. 4 ------------------------
+Nombre: Cris
+Telefono:7676
+Email: cristo
+
+------------------------ Contacto No. 5 ------------------------
+Nombre: Angel
+Telefono:98798
+Email: angel
+
