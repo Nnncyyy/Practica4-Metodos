@@ -1,7 +1,6 @@
-Practica 4
+# PRÁCTICA 4
 
-
-### PRÁCTICA 1 - GESTOR DE CONTACTOS
+### PRÁCTICA 1: GESTOR DE CONTACTOS
 
 ###  Introducción al Programa
 Este programa implementa una agenda de contactos, permitiendo al usuario agregar, buscar, eliminar y listar contactos. Cada contacto almacena información como nombre, teléfono y correo electrónico.
