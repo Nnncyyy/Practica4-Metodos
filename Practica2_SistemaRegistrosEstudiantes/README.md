@@ -49,7 +49,7 @@ Flujo de acciones:
 3. El sistema confirma el registro exitoso.
 4. Este proceso se repite para dos estudiantes adicionales.
 
-<br><img src="./capturas/Imagen1.png" alt="ima1" width="300" /><br>
+
 
 #### Caso de uso 2: Mostrar estudiantes <br>
 Objetivo: Visualizar la lista completa de estudiantes registrados.
@@ -67,7 +67,7 @@ Flujo de acciones:
 2. Ingresa la matrícula del estudiante que desea buscar (2019030001).
 3. El sistema muestra la información correspondiente al estudiante Darwin.
 
-<br><img src="./capturas/Imagen2.png" alt="ima2" width="300" /><br>
+
 
 #### Caso de uso 4: Eliminar estudiante <br>
 Objetivo: Eliminar un estudiante del sistema.
@@ -78,7 +78,6 @@ Flujo de acciones:
 3. El sistema confirma que el estudiante fue eliminado con éxito.
 4. Posteriormente, el usuario vuelve a mostrar la lista de estudiantes para verificar que el estudiante eliminado ya no aparece.
 
-<br><img src="./capturas/Imagen3.png" alt="ima3" width="300" /><br>
 
 #### Caso de uso 5: Salir del sistema <br>
 Objetivo: Finalizar el uso del sistema.
