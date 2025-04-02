@@ -124,8 +124,7 @@ Método adivinar_numero
 El juego de adivinanza en Java ofrece una experiencia simple pero entretenida, con una estructura modular gracias al uso del método *adivinar_numero*. Aunque cuenta con un sistema básico de pistas y control de errores, puede optimizarse con mejoras en la generación de pistas, control de repeticiones y opciones de reinicio.
 
 ### Planner: 
-url("https://planner.cloud.microsoft/webui/plan/i3dWxSCM70-yFXcRwXqotWQAEkOc/view/grid?tid=f94bf4d9-8097-4794-adf6-a5466ca28563")
-
+[Gestor Plannner - Microsoft](https://planner.cloud.microsoft/webui/plan/i3dWxSCM70-yFXcRwXqotWQAEkOc/view/grid?tid=f94bf4d9-8097-4794-adf6-a5466ca28563)
 
 
 
